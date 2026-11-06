@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "MC";
+    src: url(Resources/font.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    background-color: #282828;
+    font-family: "MC", sans-serif;
+}
+
+    body {    
+    text-align: center;
+    }
+
+text {
+    text-align: center;
+}
+linkstext {
+    display: block;
+    font-size: 12;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #C8823C;
+}
+a {
+    color: #A582B4;
+    text-decoration: none;
+}
+a:visited {
+    color: #A582B4;
+    text-decoration: none;
+}
