@@ -5,26 +5,30 @@
     font-style: normal;
 }
 * {
-    background-color: #282828;
     font-family: "MC", sans-serif;
 }
 body {
-        align-content: center;
+    background-color: #282828;
+    margin: 0;
+    padding-top: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }        
 linkstext {
-    display: block;
-    font-size: 12;
+    font-size: 1em;
     font-weight: bold;
     color: #C8823C;
     padding-left: 10px;
     padding-right: 10px;
 }
-bar {
-    display: block;
-    font-size: 12;
-    font-weight: bold;
-    color: #C8823C;
-    padding-top: 40px;
+.bar {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    background-image: url("Resources/Bar.png");
+    background-repeat: repeat;
 }
 a {
     color: #4460ad;
@@ -35,17 +39,17 @@ a:visited {
     text-decoration: none;
 }
 spacer {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .topbar {
+    top: 0;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
     position: fixed;
     width: 100%;
-    text-decoration: none;
+    padding-bottom: 1rem;
+    white-space: nowrap;
 }
