@@ -15,12 +15,42 @@ body {
     display: flex;
     flex-direction: column;
 }        
-linkstext {
+linktext {
     font-size: 1em;
     font-weight: bold;
     color: #C8823C;
     padding-left: 10px;
     padding-right: 10px;
+}
+.ascii {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1;
+    padding: 1rem;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+.bluetext {
+    font-size: 1em;
+    font-weight: bold;
+    color: #4460ad;
+    padding: 0;
+}
+.orangetext {
+    font-size: 1em;
+    font-weight: bold;
+    color: #C8823C;
+    padding: 0;
+}
+pre {
+    font-size: 1em;
+    font-weight: bold;
+    color: #C8823C;
 }
 .bar {
     display: flex;
