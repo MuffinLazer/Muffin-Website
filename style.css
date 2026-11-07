@@ -24,7 +24,7 @@ linktext {
 }
 .ascii {
     display: block;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "MC", Courier, monospace;
     flex-direction: column;
     justify-content: left;
     line-height: 1;
@@ -32,19 +32,22 @@ linktext {
     color: #C8823C;
     width: 37rem;
     font-size: 1.2rem;
-    white-space: pre-wrap;
+    white-space: pre;
+    letter-spacing: 0;
 }
 .bluetext {
     font-size: 1em;
     font-weight: bold;
     color: #4460ad;
     padding: 0;
+    font-family: inherit;
 }
 .orangetext {
     font-size: 1em;
     font-weight: bold;
     color: #C8823C;
     padding: 0;
+    font-family: inherit;
 }
 pre {
     font-size: 1em;
