@@ -23,17 +23,16 @@ linktext {
     padding-right: 10px;
 }
 .ascii {
-    display: flex;
+    display: block;
+    font-family: "Courier New", Courier, monospace;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     line-height: 1;
     padding: 1rem;
-}
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    width: 100%;
+    color: #C8823C;
+    width: 37rem;
+    font-size: 1.2rem;
+    white-space: pre-wrap;
 }
 .bluetext {
     font-size: 1em;
