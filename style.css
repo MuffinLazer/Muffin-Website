@@ -6,6 +6,7 @@
 }
 * {
     font-family: "MC", sans-serif;
+    box-sizing: border-box;
 }
 body {
     background-color: #282828;
@@ -22,6 +23,33 @@ linktext {
     padding-left: 10px;
     padding-right: 10px;
 }
+.mainbox {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.mainbox div {
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.center {
+    justify-self: center;
+    width: 30rem;
+}
+.leftdata {
+    justify-self: left;
+    border: #C8823C;
+    border-style: dashed;
+    width: 30rem;
+}
+.profile {
+    justify-self: left;
+    width: 30rem;
+}
 .ascii {
     display: block;
     font-family: "MC", Courier, monospace;
@@ -37,7 +65,6 @@ linktext {
 }
 .bluetext {
     font-size: 1em;
-    font-weight: bold;
     color: #4460ad;
     padding: 0;
     font-family: inherit;
@@ -46,6 +73,19 @@ linktext {
     font-size: 1em;
     font-weight: bold;
     color: #C8823C;
+    padding: 0;
+    font-family: inherit;
+}
+h1 {
+    font-weight: bold;
+    color: #C8823C;
+    padding: 0;
+    font-family: inherit;
+}
+p {
+    font-size: 1em;
+    font-weight: bold;
+    color: #4460ad;
     padding: 0;
     font-family: inherit;
 }
@@ -58,7 +98,14 @@ pre {
     display: flex;
     width: 100%;
     padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: 2.35rem;
+    background-image: url("Resources/Bar.png");
+    background-repeat: repeat;
+}
+.bar2 {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
     background-image: url("Resources/Bar.png");
     background-repeat: repeat;
 }
@@ -77,11 +124,12 @@ spacer {
 }
 .topbar {
     top: 0;
-    padding-top: 1rem;
+    padding-top: 1.4rem;
     display: flex;
     justify-content: center;
     position: fixed;
     width: 100%;
-    padding-bottom: 1rem;
+    padding-bottom: .8rem;
     white-space: nowrap;
+    background-color: #282828;
 }
