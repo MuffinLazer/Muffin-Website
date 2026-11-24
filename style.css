@@ -24,7 +24,7 @@ body {
 }    
 .Inputdata img {
     width: 30em;
-    height: 20rem;
+    height: 18rem;
 }
 b {
     font-size: 1.2em;
@@ -80,7 +80,7 @@ h1 {
 }
 p {
     line-height: 150%;
-    font-size: 1em;
+    font-size: 1.05em;
     font-weight: bold;
     color: #4460ad;
     font-family: inherit;
