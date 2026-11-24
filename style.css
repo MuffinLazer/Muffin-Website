@@ -16,17 +16,21 @@ body {
     display: flex;
     flex-direction: column;
 }
-img {
+.profile img {
     border-radius: 50%;
     border-color: #4460ad;
     border-style:ridge;
     border-width: .5rem;
 }    
+.Inputdata img {
+    width: 30em;
+    height: 20rem;
+}
 b {
     font-size: 1.2em;
 }    
 linktext {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
     color: #4460ad;
     padding-left: 10px;
